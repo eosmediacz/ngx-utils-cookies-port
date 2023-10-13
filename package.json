@@ -6,6 +6,7 @@
     "start": "ng serve",
     "copy:readme": "copyfiles ./README.md ./dist/ngx-utils-cookies-port",
     "build": "ng build ngx-utils-cookies-port --prod && npm run copy:readme",
+    "publish-release": "cd dist/ngx-utils-cookies-port && npm publish --registry=https://npm.eos.cz --ignore-scripts && cd ../../",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

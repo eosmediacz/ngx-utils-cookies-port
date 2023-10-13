@@ -42,6 +42,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngx-utils-cookies-port"
+    }
+  },
+  "defaultProject": "ngx-utils-cookies-port",
+  "cli": {
+    "analytics": false
+  }
 }
